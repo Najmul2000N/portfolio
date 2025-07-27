@@ -16,7 +16,7 @@
 
 .navbar {
   background-color: rgb(150, 197, 213);
-  width: 150px;
+  width: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +42,7 @@
   cursor: pointer;
 }
 .hero {
-  width: calc(100% - 150px);
+  width: calc(100% - 100px);
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -103,7 +103,7 @@
     width: 100%;
   }
   .navbar {
-    width: 200px;
+    width: 120px;
   }
 
   .navbar > button > a {
@@ -117,7 +117,7 @@
     cursor: pointer;
   }
   .hero {
-    width: calc(100% - 200px);
+    width: calc(100% - 120px);
   }
 
   .logo > span {
@@ -151,7 +151,7 @@
     width: 100%;
   }
   .navbar {
-    width: 200px;
+    width: 150px;
   }
 
   .navbar > button > a {
@@ -165,7 +165,7 @@
     cursor: pointer;
   }
   .hero {
-    width: calc(100% - 200px);
+    width: calc(100% - 150px);
   }
 
   .logo > span {
